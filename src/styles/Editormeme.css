@@ -1,0 +1,63 @@
+
+.titulo-texto{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #264653;
+  }
+  .subtitulo-texto{
+    font-size: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #264653;
+  }
+  
+  .input-meme{
+    height: 50px;
+    border-radius: 10px;
+    margin: 30px 0 30px 0;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #e5e5e5;
+    border: none;
+    padding: 15px 25px 15px 15px;
+    color: #14213d;
+  }
+
+  .select-img{
+    height: 50px;
+    border-radius: 10px;
+    margin: 30px 0 30px 0;
+}
+.contenedor-input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.img-meme{
+  width: 500px;
+  height: auto;
+}
+
+.boton-descarga{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #264653;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+.boton-descarga:hover{
+  background-color: #088178;
+  color: #fff;
+}
